@@ -1,7 +1,6 @@
 # 🔐 Animated Log-In Page
 
-A sleek and modern **animated log-in interface** with smooth transitions, interactive fields, and a responsive layout.  
-Designed for a stylish and user-friendly authentication experience. 
+A sleek and modern **animated log-in interface** with smooth transitions, interactive fields, and a responsive layout. Designed for a stylish and user-friendly authentication experience. 
 
 ---
 
