@@ -5,8 +5,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Interactive log-in Page</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
   </head>
   <body>
+    <!-- CONTAINER -->
+    <div class="container" id="container">
+      <!-- SIGN-UP FORM CONTAINER -->
+      <div class="form-container sign-up">
+        <!-- FORM -->
+        <form>
+          <!-- TITLE -->
+          <h1>Create Account</h1>
+
+          <!-- SOCIALS -->
+          <div class="social-icon">
+            <!-- GOOGLE -->
+            <a href="#" class="icon" title="Google"
+              ><i class="fa-brands fa-google-plus-g"></i
+            ></a>
+            <!-- FACEBOOK -->
+            <a href="#" class="icon" title="Facebook"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <!-- LINKEDIN -->
+            <a href="#" class="icon" title="LinkedIn"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <!-- GITHUB -->
+            <a href="#" class="icon" title="Github"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+
+          <span>or use your email for registration</span>
+
+          <!-- USERNAME -->
+          <input type="text" placeholder="Name" />
+
+          <!-- EMAIL -->
+          <input type="email" placeholder="Email" />
+
+          <!-- PASSWORD -->
+          <input type="password" placeholder="Password" />
+
+          <!-- CONFIRM PASSWORD -->
+          <input type="password" placeholder="Confirm Password" />
+
+          <!-- SIGN-UP BUTTON -->
+          <button type="button">Sign Up</button>
+        </form>
+      </div>
+
+      <!-- SIGN-IN FORM CONTAINER -->
+      <div class="form-container sign-in">
+        <form>
+          <h1>Sign In</h1>
+
+          <!-- SOCIALS -->
+          <div class="social-icon">
+            <!-- GOOGLE -->
+            <a href="#" class="icon" title="Google"
+              ><i class="fa-brands fa-google-plus-g"></i
+            ></a>
+            <!-- FACEBOOK -->
+            <a href="#" class="icon" title="Facebook"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <!-- LINKEDIN -->
+            <a href="#" class="icon" title="LinkedIn"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <!-- GITHUB -->
+            <a href="#" class="icon" title="Github"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+
+          <span>or use your email password</span>
+
+          <!-- EMAIL -->
+          <input type="email" placeholder="Email" />
+
+          <!-- PASSWORD -->
+          <input type="password" placeholder="Password" />
+
+          <!-- FORGOT PASSWORD -->
+          <a href="#">Forget Your Password?</a>
+
+          <!-- SIGN-IN BUTTON -->
+          <button type="button">Sign In</button>
+        </form>
+      </div>
+
+      <!-- TOGGLE CONTAINERS -->
+      <div class="toggle-container">
+        <!-- TOGGLE CONTAINERS LEFT PANEL -->
+        <div class="toggle-panel toggle-left">
+          <h1>Welcome Back!</h1>
+
+          <p>Enter your personal details to use all of site features</p>
+
+          <!-- SING IN BUTTON -->
+          <button type="button" class="hidden" id="login">Sign In</button>
+        </div>
+
+        <!-- TOGGLE CONTAINERS RIGHT PANEL -->
+        <div class="toggle-panel toggle-right">
+          <h1>Hello, Friend!</h1>
+
+          <p>Register with your personal details to use all of site features</p>
+
+          <!-- SING UP BUTTON -->
+          <button class="hidden" id="register">Sign Up</button>
+        </div>
+      </div>
+    </div>
     <!-- JS -->
     <script src="script.js"></script>
   </body>
